@@ -1,10 +1,11 @@
 .App {
   text-align: center;
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outputofall{
+  margin: 20px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,7 +13,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -23,11 +23,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +33,73 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+
+
+
+
+
+#playerimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+#computerimg{
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+.twoplayer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.firstplayer{
+  margin-left:-50px ;
+  border-radius: 20%;
+}
+.computerplayer{
+  margin-left: 200px;
+} 
+.lose1{
+  margin-left: 200px;
+}
+input{
+  height: 30px;
+  background-color: #61fbb8;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+}
+input:focus{
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #fb6161;
+}
+input:hover{
+  height: 30px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  background-color: cadetblue;
+}
+button{
+  background-color: #61dafb;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  border-radius: 25px;
+}
+button:focus{
+  background-color: #fb6161;
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 25px;
 }
