@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/numbergeuss/static/css/main.da9a68f0.css",
+    "main.js": "/numbergeuss/static/js/main.fa0e4fce.js",
+    "static/js/453.67c08510.chunk.js": "/numbergeuss/static/js/453.67c08510.chunk.js",
+    "static/media/winner.gif": "/numbergeuss/static/media/winner.fe5331a2e5df2688c997.gif",
+    "static/media/looser.gif": "/numbergeuss/static/media/looser.d253a3464c02f2dd6bb4.gif",
+    "static/media/trophy.webp": "/numbergeuss/static/media/trophy.8f20af338ef033cb9ceb.webp",
+    "static/media/computer.jpg": "/numbergeuss/static/media/computer.d4b55eb5a13c24d3f67a.jpg",
+    "static/media/player.jpg": "/numbergeuss/static/media/player.5fd03e3fd61b8946dc67.jpg",
+    "index.html": "/numbergeuss/index.html",
+    "main.da9a68f0.css.map": "/numbergeuss/static/css/main.da9a68f0.css.map",
+    "main.fa0e4fce.js.map": "/numbergeuss/static/js/main.fa0e4fce.js.map",
+    "453.67c08510.chunk.js.map": "/numbergeuss/static/js/453.67c08510.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da9a68f0.css",
+    "static/js/main.fa0e4fce.js"
+  ]
+}
