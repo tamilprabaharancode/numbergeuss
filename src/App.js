@@ -2,12 +2,13 @@ import { useState } from 'react';
 import './App.css';
 import img1 from './images/computer.jpg'
 import img2 from './images/player.jpg'
-import img3 from './images/trophy.webp'
+// import img3 from './images/trophy.webp'
 import img4 from './images/winner.gif'
 import img5 from './images/looser.gif'
 
+
 function App() {
-   let computernum=(Math.floor(Math.random() * 10) + 1); 
+   let computernum=(Math.floor(Math.random() * 10) ); 
     const [inp, giventoinp] = useState("");
     const [player, setplayer] = useState(0);
     const [computer, setcomputer] = useState(0);
@@ -55,7 +56,8 @@ function App() {
         <div className='outputofall'>
         <div className="App">
             <div className='topdetails'>
-                <h1>Guess the number 1 to 10 (answer: {computernum})</h1>
+                <h1>Guess the number 1 to 9 </h1>
+                {/* (answer: {computernum})  use if you want to display computer guss in game screen*/}
                 <input id="given" name="given" onChange={numberenterinp} min="1" max="9"/>
             </div>
             <div className='twoplayer'>
