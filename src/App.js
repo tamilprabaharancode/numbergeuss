@@ -60,7 +60,7 @@ function App() {
                 {/* (answer: {computernum})  use if you want to display computer guss in game screen*/}
                 <input id="given" name="given" onChange={numberenterinp} min="1" max="9"/>
             </div>
-            <div className='twoplayer'>
+            <div className='twoplayer' style={{display:'flex',flexWrap:'wrap',alignItems:'center',justifyContent:'center'}}>
                 <div className='firstplayer'><img src={img2} id='computerimg'></img><h1>Player score: {player}</h1></div> 
                 <div className='computerplayer'><img src={img1} id='playerimg'></img><h1>Computer score: {computer}</h1></div>
                  <div className='lose1'>

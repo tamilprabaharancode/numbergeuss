@@ -103,3 +103,29 @@ button:focus{
   padding: 5px;
   border-radius: 25px;
 }
+
+.twoplayer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .twoplayer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .twoplayer img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  #playerimg,
+  #computerimg,
+  #win,
+  #loose {
+    width: 200px; /* whatever size you want */
+  }
+}
